@@ -1,0 +1,7 @@
+==10008== Conditional jump or move depends on uninitialised value(s)
+==10008==    at 0x401441: unload (dictionary.c:138)
+==10008==    by 0x400DE9: main (speller.c:152)
+==10008==  Uninitialised value was created by a heap allocation
+==10008==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==10008==    by 0x401238: load (dictionary.c:80)
+==10008==    by 0x400944: main (speller.c:40)
